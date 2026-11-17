@@ -1,0 +1,44 @@
+{
+    "position": "top",
+    "layer": "top",
+    "width": 1230,
+    "height": 35,
+    "margin": "0 0 2px 0",
+    "fixed-center": true,
+
+    "modules-left": [
+        "cpu",
+        "memory"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "network",
+        "battery"
+    ],
+
+    "cpu": {
+        "format": "CPU {usage}%"
+    },
+
+    "memory": {
+        "format": "RAM {used:0.1f}G"
+    },
+
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+
+    "network": {
+        "format-wifi": "WIFI {signalStrength}%",
+        "format-disconnected": "Offline",
+        "format-ethernet": "ETH"
+    },
+
+    "battery": {
+        "format": "BAT {capacity}%"
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    font-family: "DejaVu Sans";
+    font-size: 8px;
+    color: #ffffff;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(20, 20, 25, 0.85);
+    border-radius: 22px;
+    padding: 0 18px;
+    margin-bottom: 12px;
+}
+
+#cpu,
+#memory,
+#clock,
+#network,
+#battery {
+    padding: 0 10px;
+}

@@ -1,0 +1,35 @@
+
+# Dark blue / foggy theme
+
+color=080d18
+
+font=DejaVu Sans
+font-size=16
+
+indicator-radius=90
+indicator-thickness=5
+indicator-idle-visible
+
+inside-color=101b2acc
+inside-clear-color=101b2acc
+inside-ver-color=101b2acc
+inside-wrong-color=101b2acc
+
+ring-color=263c5a
+ring-clear-color=263c5a
+ring-ver-color=78a9e6
+ring-wrong-color=cf6679
+
+line-color=00000000
+separator-color=00000000
+
+key-hl-color=8ab4f8
+text-color=e8eef8
+text-clear-color=e8eef8
+text-ver-color=e8eef8
+text-wrong-color=cf6679
+
+disable-caps-lock-text
+
+image=@SWAYSHELL_WALLPAPER@
+scaling=fill
