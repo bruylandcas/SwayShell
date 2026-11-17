@@ -24,5 +24,6 @@ A simple bootstrap installer for my personal SwayFX desktop setup on Arch Linux.
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/bruylandcas/SwayShell.git
 cd SwayShell
+./install.sh
